@@ -1,0 +1,51 @@
+{
+  "id": "YmMockDisclaimer001",
+  "uid": "site-disclaimer",
+  "type": "disclaimer",
+  "lang": "en-us",
+  "data": {
+    "title": "Important Disclaimer",
+    "body": [
+      {
+        "type": "paragraph",
+        "text": "This demo content is for teaching purposes only. It is not legal advice and does not create a client relationship.",
+        "spans": [
+          { "start": 45, "end": 62, "type": "strong" }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "Always verify requirements with your compliance team before publishing disclaimers on a production site. For Codementor live sessions, replace this mock document with a real Prismic query.",
+        "spans": [
+          {
+            "start": 138,
+            "end": 145,
+            "type": "hyperlink",
+            "data": {
+              "link_type": "Web",
+              "url": "https://prismic.io/docs",
+              "target": "_blank"
+            }
+          }
+        ]
+      },
+      {
+        "type": "list-item",
+        "text": "Mock data lives in content/sample-disclaimer.json",
+        "spans": []
+      },
+      {
+        "type": "list-item",
+        "text": "Rendering logic is in lib/rich-text.tsx (span-aware)",
+        "spans": []
+      },
+      {
+        "type": "list-item",
+        "text": "Swap getDisclaimer() for client.getSingle('disclaimer') when going live",
+        "spans": []
+      }
+    ],
+    "last_updated": "2026-09-07",
+    "severity": "warning"
+  }
+}
